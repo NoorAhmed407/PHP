@@ -1,11 +1,11 @@
 <?php
-$SERVERNAME = "localhost";
-$Username = 'root';
+$SERVER_NAME = "localhost";
+$User_name = 'root';
 $password = '';
-$databasename = "crudyt";
+$database_name = "crudyt";
 
 
-$conn = mysqli_connect($SERVERNAME,$Username,$password,$databasename);
+$conn = mysqli_connect($SERVER_NAME,$User_name,$password,$database_name);
 
 if(!$conn){
     die("Error in connection ".mysqli_connect_error());
